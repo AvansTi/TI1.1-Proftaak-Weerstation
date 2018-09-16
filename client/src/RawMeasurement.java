@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class RawMeasurement
+public class RawMeasurement implements Serializable
 {
 
     private String stationId;
